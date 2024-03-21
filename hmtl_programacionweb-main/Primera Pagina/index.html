@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Primera Pagina Web ૮ ˶ᵔ ᵕ ᵔ˶ ა</title>
+
+    <style>
+        body {
+            background-image: url('pink.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+        background-image: url('littleflowers.gif');
+/* /    color: #fff;  */
+        padding: 180px; 
+        text-align: center; 
+        }
+
+        .flower {
+        position: absolute;
+        width: 50px; 
+        height: 50px; 
+        animation: floatAnimation linear infinite;
+        }
+
+        h1 {
+        font-family: 'Arial', sans-serif;
+        font-style: Bold; 
+        font-style: italic; 
+        color: #ae3131;
+        /* background-color: white; */
+        background-size: cover;
+        }
+
+        strong {
+            font-size: 18px;
+            color: #111010; 
+            background-color: rgb(250, 223, 236);
+            display: inline-block;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button {
+        padding: 10px 40px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #ae3131;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+    <h1>Valentina Caro Muñoz</h1>
+    </header>
+    
+    <div class="button-container">
+        <button type="button" onclick="redirectTosegundapagina()">Click Me!</button>
+    </div>
+    <script>
+        function redirectTosegundapagina() {
+        window.location.href = 'SegundaPagina.html';
+        }
+    </script>
+
+</body>
+
+</html>
